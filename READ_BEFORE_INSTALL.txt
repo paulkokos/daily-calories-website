@@ -1,1 +1,0 @@
-before run install.sh file please read "readme.md" and apply options as described

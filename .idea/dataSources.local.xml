@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails daily-calories-website: production" uuid="36432771-b8dc-40f7-b7cb-82daa70a3f27">
+      <database-info product="MariaDB" version="10.5.9-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.6.0" dbms="MARIADB" exact-version="10.5.9" exact-driver-version="2.6">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>daily_calories_website_production_user</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails daily-calories-website: development" uuid="3e924775-73ed-4608-841c-d35e3ef44f01">
+      <database-info product="MariaDB" version="10.5.9-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.6.0" dbms="MARIADB" exact-version="10.5.9" exact-driver-version="2.6">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>daily_calories_website_development_user</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails daily-calories-website: test" uuid="d4844fb9-991f-4073-8cc1-85fc2b6f0b99">
+      <database-info product="MariaDB" version="10.5.9-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.6.0" dbms="MARIADB" exact-version="10.5.9" exact-driver-version="2.6">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>daily_calories_website_test_user</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
