@@ -37,3 +37,5 @@ sudo usermod -aG docker "$USER"
 
 # shellcheck disable=SC2046
 docker build -t rails-toolbox --build-arg USER_ID=$(id -u)  --build-arg GROUP_ID=$(id -g) -f Dockerfile.rails .
+# Connector for mysql
+sudo apt-get install libmysqlclient-dev
