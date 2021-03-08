@@ -8,6 +8,7 @@ ruby '2.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
 # Use sqlite3 as the database for Active Record
+gem 'ruby-mysql', '~> 2.9', '>= 2.9.14'
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
@@ -16,9 +17,9 @@ gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+gem 'turbolinks', '~> 5.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
+gem 'jbuilder', '~> 2.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -57,8 +58,15 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'pg'
+# gem 'pg'
 gem 'redis-rails'
 gem 'rubygems-update'
 gem 'sidekiq'
 gem 'unicorn'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
+gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
+gem 'sdoc', '~> 2.0'
+
+gem 'jquery-rails', '~> 4.4'
+gem 'coffee-rails', '~> 5.0'
