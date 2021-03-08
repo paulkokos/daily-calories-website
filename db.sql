@@ -16,11 +16,6 @@ GRANT ALL PRIVILEGES ON daily_calories_website_development TO 'daily_calories_we
 
 
 
-
-
-
-
-
 drop database if exists daily_calories_website_development;
 drop database if exists daily_calories_website_production;
 drop database if exists daily_calories_website_test;
